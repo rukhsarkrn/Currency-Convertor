@@ -34,4 +34,4 @@ let toAmount = currency[userInput.to];
 let Amount = userInput.amount;
 let basedAmount = Amount / fromAmount;
 let convertedAmount = basedAmount * toAmount;
-console.log(chalk.yellow.bold("Your Converted Amount is :"), chalk.bgCyanBright.white.bold(convertedAmount.toFixed(2)), `${userInput.to}`);
+console.log(chalk.yellow.bold("Your Converted Amount is :"), chalk.bgBlackBright.white.bold(convertedAmount.toFixed(2)), `${userInput.to}`);

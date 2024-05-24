@@ -44,7 +44,7 @@ let convertedAmount =  basedAmount * toAmount;
 
 console.log(
 chalk.yellow.bold("Your Converted Amount is :"), 
-chalk.bgCyanBright.white.bold(convertedAmount.toFixed(2)), 
+chalk.bgBlackBright.white.bold(convertedAmount.toFixed(2)), 
 `${userInput.to}`
 );
 
